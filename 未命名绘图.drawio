@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T16:49:26.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ppDMZnyZf536HQbFjmzM" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-15T16:59:37.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PLaF5Vf70WtnJjaxZGb0" version="20.8.16" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1717" dy="2480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="690" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-34" value="affiliate_tag(聯盟標籤表)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="1044.5" y="-1010" width="601" height="300" as="geometry" />
+          <mxGeometry x="1104.5" y="-940" width="601" height="300" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-34">
           <mxGeometry y="30" width="601" height="30" as="geometry" />
@@ -125,7 +125,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-72" value="affiliate_product(聯盟商品表)" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="-640" width="649.9999999999999" height="360" as="geometry" />
+          <mxGeometry x="1080" y="-570" width="649.9999999999999" height="360" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-73" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-72">
           <mxGeometry y="40" width="649.9999999999999" height="30" as="geometry" />
@@ -271,7 +271,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-108" value="affiliate_attribution_order(聯盟訂單表)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="1990" y="-850" width="380" height="270" as="geometry" />
+          <mxGeometry x="2050" y="-780" width="380" height="270" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-109" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-108">
           <mxGeometry y="30" width="380" height="30" as="geometry" />
@@ -281,7 +281,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-111" value="order_oid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-109">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-111" value="order_oid INTEGER COMMENT &#39;訂單標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-109">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -294,7 +294,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-114" value="cid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-112">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-114" value="cid INTEGER COMMENT &#39;聯盟站點標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-112">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -320,7 +320,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-158" value="settle_oid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-156">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-158" value="settle_oid INTEGER COMMENT &#39;聯盟分潤金額標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-156">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -333,7 +333,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-123" value="comm_cal_type" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-121">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-123" value="comm_cal_type VARCHAT(20) COMMENT ‘聯盟分潤類型’" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-121">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -346,7 +346,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-126" value="comm_cal_ref_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-124">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-126" value="comm_cal_ref_id INTEGER COMMENT &#39;聯盟分潤標識&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-124">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -359,7 +359,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-129" value="comm_cal_rate" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-127">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-129" value="comm_cal_rate NUMERIC(10,5) COMMENT &#39;聯盟分潤佣金比例&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-127">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -372,29 +372,29 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-120" value="comm_source_match_snap" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-118">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-120" value="comm_source_match_snap JSON COMMENT &#39;分潤快照&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-118">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-130" value="affiliate_web(聯盟站點)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="-910" width="180" height="150" as="geometry" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-130" value="affiliate_web(聯盟站點表)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="-840" width="380" height="160.00000000000023" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-131" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-130">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
+          <mxGeometry y="30" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-132" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-131">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-133" value="cid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-131">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-133" value="cid INTEGER COMMENT &#39;聯盟站點標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-131">
+          <mxGeometry x="30" width="350" height="30" as="geometry">
+            <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-134" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-130">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
+          <mxGeometry y="60" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-135" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-134">
           <mxGeometry width="30" height="30" as="geometry">
@@ -402,106 +402,119 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-136" value="..." style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-134">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="350" height="30" as="geometry">
+            <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-140" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-130">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
+          <mxGeometry y="90" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-141" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-140">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
+          <mxGeometry width="30" height="40" as="geometry">
+            <mxRectangle width="30" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-142" value="status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-140">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-142" value="status VARCHAR(20) COMMENT &#39;聯盟站點狀態 Approved&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-140">
+          <mxGeometry x="30" width="350" height="40" as="geometry">
+            <mxRectangle width="350" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-137" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-130">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
+          <mxGeometry y="130" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-138" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-137">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-139" value="attribution_type" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-137">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-139" value="attribution_type VARCHAR(20) COMMENT &#39;聯盟站點分潤模式&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-137">
+          <mxGeometry x="30" width="350" height="30" as="geometry">
+            <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-143" value="affiliate_settle(聯盟分潤)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="-500" width="180" height="180" as="geometry" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-143" value="affiliate_settle(聯盟分潤金額表)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2721" y="-430" width="379" height="210" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-144" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-143">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
+          <mxGeometry y="30" width="379" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-145" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-144">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-146" value="settle_oid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-144">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-146" value="settle_oid INTEGER COMMENT &#39;聯盟分潤金額標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-144">
+          <mxGeometry x="30" width="349" height="30" as="geometry">
+            <mxRectangle width="349" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-252" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-143">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
+          <mxGeometry y="60" width="379" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-253" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-252">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-254" value="cid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-252">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-254" value="cid INTEGER COMMENT &#39;聯盟站點標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-252">
+          <mxGeometry x="30" width="349" height="30" as="geometry">
+            <mxRectangle width="349" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-263" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-143">
+          <mxGeometry y="90" width="379" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-264" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-263">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-265" value="..." style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-263">
+          <mxGeometry x="30" width="349" height="30" as="geometry">
+            <mxRectangle width="349" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-147" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-143">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
+          <mxGeometry y="120" width="379" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-148" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-147">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-149" value="settle_comm_rate" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-147">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-149" value="settle_comm_rate NUMERIC(10,5) COMMENT &#39;聯盟分潤的佣金比例&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-147">
+          <mxGeometry x="30" width="349" height="30" as="geometry">
+            <mxRectangle width="349" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-150" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-143">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
+          <mxGeometry y="150" width="379" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-151" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-150">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-152" value="settle_price" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-150">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-152" value="settle_price NUMERIC(10,5) COMMENT &#39;聯盟分潤金額&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-150">
+          <mxGeometry x="30" width="349" height="30" as="geometry">
+            <mxRectangle width="349" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-153" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-143">
-          <mxGeometry y="150" width="180" height="30" as="geometry" />
+          <mxGeometry y="180" width="379" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-154" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-153">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-155" value="affiliate_comm_snap" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-153">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-155" value="affiliate_comm_snap JSON COMMENT &#39;聯盟分潤快照&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-153">
+          <mxGeometry x="30" width="349" height="30" as="geometry">
+            <mxRectangle width="349" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-159" value="affiliate_order(聯盟訂單表)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="1990" y="-520" width="380" height="270" as="geometry" />
+          <mxGeometry x="2050" y="-450" width="380" height="270" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-160" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-159">
           <mxGeometry y="30" width="380" height="30" as="geometry" />
@@ -511,7 +524,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-162" value="order_oid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-160">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-162" value="order_oid INTEGER COMMENT &#39;訂單標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-160">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -524,7 +537,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-165" value="cid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-163">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-165" value="cid INTEGER COMMENT &#39;聯盟站點標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-163">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -550,7 +563,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-171" value="settle_oid" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-169">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-171" value="settle_oid INTEGER COMMENT &#39;聯盟分潤金額標識ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-169">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -563,7 +576,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-174" value="comm_cal_type" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-172">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-174" value="comm_cal_type VARCHAT(20) COMMENT ‘聯盟分潤類型’" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-172">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -576,7 +589,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-177" value="comm_cal_ref_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-175">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-177" value="comm_cal_ref_id INTEGER COMMENT &#39;聯盟分潤標識&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-175">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -589,7 +602,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-180" value="comm_cal_rate" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-178">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-180" value="comm_cal_rate NUMERIC(10,5) COMMENT &#39;聯盟分潤佣金比例&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-178">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -602,14 +615,14 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-183" value="comm_source_match_snap" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-181">
+        <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-183" value="comm_source_match_snap JSON COMMENT &#39;分潤快照&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WJ0qPZ8VlOcd7IL-W5qs-181">
           <mxGeometry x="30" width="350" height="30" as="geometry">
             <mxRectangle width="350" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJ0qPZ8VlOcd7IL-W5qs-91" target="WJ0qPZ8VlOcd7IL-W5qs-127">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1700" y="-440" as="sourcePoint" />
+            <mxPoint x="1760" y="-370" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJ0qPZ8VlOcd7IL-W5qs-91" target="WJ0qPZ8VlOcd7IL-W5qs-178">
@@ -622,32 +635,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-230" value="DDA" style="rhombus;whiteSpace=wrap;html=1;startSize=30;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="2410" y="-815" width="80" height="80" as="geometry" />
+          <mxGeometry x="2470" y="-745" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WJ0qPZ8VlOcd7IL-W5qs-204" target="WJ0qPZ8VlOcd7IL-W5qs-166">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-204" value="LAST" style="rhombus;whiteSpace=wrap;html=1;startSize=30;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="-465" width="80" height="80" as="geometry" />
+          <mxGeometry x="2510" y="-395" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJ0qPZ8VlOcd7IL-W5qs-38" target="WJ0qPZ8VlOcd7IL-W5qs-85">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="950" y="-935" />
-              <mxPoint x="950" y="-475" />
+              <mxPoint x="1010" y="-865" />
+              <mxPoint x="1010" y="-405" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJ0qPZ8VlOcd7IL-W5qs-57" target="WJ0qPZ8VlOcd7IL-W5qs-91">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1730" y="-905" />
-              <mxPoint x="1730" y="-445" />
+              <mxPoint x="1790" y="-835" />
+              <mxPoint x="1790" y="-375" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJ0qPZ8VlOcd7IL-W5qs-252" target="WJ0qPZ8VlOcd7IL-W5qs-131">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3180" y="-355" />
+              <mxPoint x="3180" y="-795" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WJ0qPZ8VlOcd7IL-W5qs-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WJ0qPZ8VlOcd7IL-W5qs-252" target="WJ0qPZ8VlOcd7IL-W5qs-204">
           <mxGeometry relative="1" as="geometry" />
